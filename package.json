@@ -1,0 +1,21 @@
+{
+  "name": "project-8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss:assets/css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TranHieu91/project08.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TranHieu91/project08/issues"
+  },
+  "homepage": "https://github.com/TranHieu91/project08#readme",
+  "description": ""
+}
