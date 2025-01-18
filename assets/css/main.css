@@ -64,6 +64,7 @@ body {
   font-size: 1.6rem;
   font-family: Gordita, sans-serif;
   color: var(--text-color);
+  background: var(--body-bg);
 }
 
 a {
@@ -1121,6 +1122,7 @@ html.dark {
   --text-color: #FFF;
   --icon-color: brightness(0) saturate(100%) invert(100%)
   sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+  --body-bg: #292E39;
   --header-bg-color: #171C28;
   --top-act-group-bg-color: #292E39;
   --top-act-group-shadow: rgba(0, 0, 0, 0.20);
@@ -1131,10 +1133,16 @@ html {
   --text-color: #1A162E;
   --icon-color: brightness(0) saturate(100%) invert(8%) sepia(19%) saturate(2458%)
   hue-rotate(214deg) brightness(93%) contrast(95%);
+  --body-bg: #F6F6F6;
   --header-bg-color: #EEE;
   --top-act-group-bg-color: #FFF;
   --top-act-group-shadow: rgba(237, 237, 246, 0.20);
   --top-act-group-separate: #EDEDF6;
+}
+@media (max-width: 991.98px) {
+  html {
+    --header-bg-color: #FFF;
+  }
 }
 
 .top-act__btn, .top-act__group, .top-act, .navbar__link, .navbar__list, .top-bar {
